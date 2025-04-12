@@ -9,6 +9,7 @@ Ideal para automatizar a leitura de documentos escaneados com erros ortográfico
 2. O `pytesseract` extrai o texto das imagens.
 3. Cada palavra do texto é verificada e corrigida quando necessário com `pyspellchecker`.
 4. São salvos dois arquivos `.txt`: um com o texto original, outro com o texto corrigido.
+5. Para converter um outro PDF em texto aplicar a correção ortografica basta configurar o caminho do arquivo para o novo arquivo.
 
 ### Pré-requisitos
 - Python 3.8+
@@ -26,3 +27,6 @@ As imagens convertidas serão salvas na pasta paginas/.
 O texto original será salvo em texto_original.txt.
 
 O texto corrigido será salvo em texto_corrigido.txt.
+
+
+
